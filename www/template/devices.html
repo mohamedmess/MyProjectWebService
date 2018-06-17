@@ -1,0 +1,11 @@
+<ion-view cache-view="false" view-title="Devices">
+    <ion-content class="padding">
+        <div class="list">
+            <a ng-href="#/devices/{{device.id}}"
+            class="item"
+            ng-repeat="device in devices.devices">
+                {{device.title}}
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
